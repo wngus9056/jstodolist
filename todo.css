@@ -1,0 +1,129 @@
+.todo{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .done{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .filter{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  input[type="text"]{
+    width: 385px;
+    height: 30px;
+    outline: 0;
+    border: 1;
+    font-size: 1.5em;
+    background: white;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  #addBt{
+    width: 85px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: #6ea9ad;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+  }
+  #searchBt{
+    width: 85px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: #4d73b9;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+  }
+  #addText{
+    font-size: 1.2em;
+  }
+  #searchText{
+    font-size: 1.2em;
+  }
+  #addBtText{
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  #searchBtText{
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .todoList{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px 10px 0px;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+  }
+  #delete{
+    background-color: #f1e390;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    color: white;
+    cursor: pointer;
+  }
+  #clear{
+    float: right;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+  }
+  .edit{
+    width: 45px;
+    height: 25px;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 3px;
+    color: white;
+    float: right;
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .today{
+    font-size: 0.2em;
+    float: right;
+    margin-top: 8px;
+  }
+  .doneText{
+    color:rgb(160, 160, 160);
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .label{
+    font-weight: normal;
+  }
+  #list{
+    float: right;
+    font-weight: bold;
+    color: rgb(62, 112, 96);
+    text-decoration-line: none;
+  }
+  .filterText{
+    font-size: 0.6em;
+    font-weight: bold;
+  }
